@@ -1,0 +1,25 @@
+/* App.css */
+
+form {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#formht{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+TextField {
+  margin-bottom: 16px;
+}
+
+Button {
+  margin-top: 16px;
+}
+
