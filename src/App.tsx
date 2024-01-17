@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import AsteroidForm from "./components/AsteroidForm";
 import AsteroidDetails from "./components/AsteroidDetails";
 import {
@@ -58,7 +58,7 @@ class App extends Component<{}, AppState> {
     const { asteroidDetails } = this.state;
 
     return (
-      <div>
+      <div className="AppContainer">
         {!asteroidDetails ? (
           <AsteroidForm
             onSubmit={this.handleAsteroidSubmit}

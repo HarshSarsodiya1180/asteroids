@@ -1,4 +1,4 @@
-import React, { Component, FormEvent } from "react";
+import { Component, FormEvent } from "react";
 import { Button, TextField } from "@mui/material";
 
 interface AsteroidFormProps {
